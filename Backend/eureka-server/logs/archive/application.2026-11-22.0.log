@@ -1,0 +1,429 @@
+2026-11-22 14:50:45 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 9.1.5.Final
+2026-11-22 14:50:45 [main] INFO  c.r.eureka.EurekaServerApplication - Starting EurekaServerApplication using Java 17.0.12 with PID 31076 (C:\Users\susmi\Documents\RailwayReservationSystem\Backend\eureka-server\target\classes started by susmi in C:\Users\susmi\Documents\RailwayReservationSystem\Backend\eureka-server)
+2026-11-22 14:50:45 [main] INFO  c.r.eureka.EurekaServerApplication - No active profile set, falling back to 1 default profile: "default"
+2026-11-22 14:50:48 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=80631226-7f71-3efc-b878-078163ac156c
+2026-11-22 14:50:48 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8761 (http)
+2026-11-22 14:50:49 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8761"]
+2026-11-22 14:50:49 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-11-22 14:50:49 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-11-22 14:50:49 [main] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 3556 ms
+2026-11-22 14:50:51 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2026-11-22 14:50:51 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2026-11-22 14:50:51 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2026-11-22 14:50:51 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2026-11-22 14:50:54 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-11-22 14:50:54 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2026-11-22 14:50:54 [main] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2026-11-22 14:50:54 [main] INFO  c.netflix.discovery.DiscoveryClient - Client configured to neither register nor query for data.
+2026-11-22 14:50:54 [main] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1795339254173 with initial instances count: 0
+2026-11-22 14:50:54 [main] INFO  c.n.e.DefaultEurekaServerContext - Initializing ...
+2026-11-22 14:50:54 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes - Adding new peer nodes [http://localhost:8761/eureka/]
+2026-11-22 14:50:54 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2026-11-22 14:50:54 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2026-11-22 14:50:54 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2026-11-22 14:50:54 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2026-11-22 14:50:54 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes - Replica node URL:  http://localhost:8761/eureka/
+2026-11-22 14:50:54 [main] INFO  c.n.e.r.AbstractInstanceRegistry - Finished initializing remote region registries. All known remote regions: []
+2026-11-22 14:50:54 [main] INFO  c.n.e.DefaultEurekaServerContext - Initialized
+2026-11-22 14:50:54 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoints beneath base path '/actuator'
+2026-11-22 14:50:54 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application EUREKA-SERVER with eureka with status UP
+2026-11-22 14:50:54 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8761"]
+2026-11-22 14:50:54 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap - isAws returned false
+2026-11-22 14:50:54 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Initialized server context
+2026-11-22 14:50:54 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Got 1 instances from neighboring DS node
+2026-11-22 14:50:54 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Renew threshold is: 1
+2026-11-22 14:50:54 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Changing status to UP
+2026-11-22 14:50:54 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration - Started Eureka Server
+2026-11-22 14:50:54 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8761 (http) with context path '/'
+2026-11-22 14:50:54 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8761
+2026-11-22 14:50:55 [main] INFO  c.r.eureka.EurekaServerApplication - Started EurekaServerApplication in 11.19 seconds (process running for 12.672)
+2026-11-22 14:50:55 [main] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-11-22 14:50:55 [main] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-11-22 14:51:10 [http-nio-8761-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-22 14:51:10 [http-nio-8761-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-11-22 14:51:10 [http-nio-8761-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2026-11-22 14:51:10 [http-nio-8761-exec-2] WARN  c.n.e.r.AbstractInstanceRegistry - DS: Registry: lease doesn't exist, registering resource: LOGIN-SERVICE - susmithashan:login-service:8082
+2026-11-22 14:51:10 [http-nio-8761-exec-2] WARN  c.n.e.resources.InstanceResource - Not Found (Renew): LOGIN-SERVICE - susmithashan:login-service:8082
+2026-11-22 14:51:11 [http-nio-8761-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance LOGIN-SERVICE/susmithashan:login-service:8082 with status UP (replication=false)
+2026-11-22 14:51:11 [http-nio-8761-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance LOGIN-SERVICE/susmithashan:login-service:8082 with status UP (replication=false)
+2026-11-22 14:51:12 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance LOGIN-SERVICE/susmithashan:login-service:8082 with status UP (replication=true)
+2026-11-22 14:51:54 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2026-11-22 14:52:22 [http-nio-8761-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance API-GATEWAY/susmithashan:api-gateway:8080 with status UP (replication=false)
+2026-11-22 14:52:22 [http-nio-8761-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance API-GATEWAY/susmithashan:api-gateway:8080 with status UP (replication=true)
+2026-11-22 14:52:54 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2026-11-22 14:53:54 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 14ms
+2026-11-22 14:54:54 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 8ms
+2026-11-22 14:55:54 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 7ms
+2026-11-22 14:56:54 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2026-11-22 14:57:54 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2026-11-22 14:58:54 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2026-11-22 14:59:54 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 4ms
+2026-11-22 15:00:54 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 15ms
+2026-11-22 15:01:54 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2026-11-22 15:02:54 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+2026-11-22 15:03:54 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2026-11-22 15:04:37 [http-nio-8761-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance API-GATEWAY/susmithashan:api-gateway:8080 with status UP (replication=false)
+2026-11-22 15:04:37 [http-nio-8761-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance API-GATEWAY/susmithashan:api-gateway:8080 with status UP (replication=true)
+2026-11-22 15:04:39 [http-nio-8761-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance API-GATEWAY/susmithashan:api-gateway:8080 with status DOWN (replication=false)
+2026-11-22 15:04:40 [http-nio-8761-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance API-GATEWAY/susmithashan:api-gateway:8080 with status DOWN (replication=true)
+2026-11-22 15:04:43 [http-nio-8761-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry - Cancelled instance API-GATEWAY/susmithashan:api-gateway:8080 (replication=false)
+2026-11-22 15:04:43 [http-nio-8761-exec-6] WARN  c.n.e.r.AbstractInstanceRegistry - DS: Registry: cancel failed because Lease is not registered for: API-GATEWAY/susmithashan:api-gateway:8080
+2026-11-22 15:04:43 [http-nio-8761-exec-6] INFO  c.n.e.resources.InstanceResource - Not Found (Cancel): API-GATEWAY - susmithashan:api-gateway:8080
+2026-11-22 15:04:43 [TaskBatchingWorker-target_localhost-19] WARN  c.n.eureka.cluster.ReplicationTask - The replication of task API-GATEWAY/susmithashan:api-gateway:8080:Cancel@localhost failed with response code 404
+2026-11-22 15:04:43 [TaskBatchingWorker-target_localhost-19] WARN  c.n.eureka.cluster.PeerEurekaNode - API-GATEWAY/susmithashan:api-gateway:8080:Cancel@localhost: missing entry.
+2026-11-22 15:04:52 [http-nio-8761-exec-7] WARN  c.n.e.r.AbstractInstanceRegistry - DS: Registry: lease doesn't exist, registering resource: API-GATEWAY - susmithashan:api-gateway:8080
+2026-11-22 15:04:52 [http-nio-8761-exec-7] WARN  c.n.e.resources.InstanceResource - Not Found (Renew): API-GATEWAY - susmithashan:api-gateway:8080
+2026-11-22 15:04:52 [http-nio-8761-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance API-GATEWAY/susmithashan:api-gateway:8080 with status UP (replication=false)
+2026-11-22 15:04:53 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance API-GATEWAY/susmithashan:api-gateway:8080 with status UP (replication=true)
+2026-11-22 15:04:54 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 8ms
+2026-11-22 15:05:19 [http-nio-8761-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance API-GATEWAY/susmithashan:api-gateway:8080 with status DOWN (replication=false)
+2026-11-22 15:05:19 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance API-GATEWAY/susmithashan:api-gateway:8080 with status DOWN (replication=true)
+2026-11-22 15:05:54 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Current renewal threshold is : 0
+2026-11-22 15:05:54 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 11ms
+2026-11-22 15:06:54 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 8ms
+2026-11-22 15:06:54 [http-nio-8761-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance API-GATEWAY/susmithashan:api-gateway:8080 with status UP (replication=false)
+2026-11-22 15:06:55 [http-nio-8761-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance API-GATEWAY/susmithashan:api-gateway:8080 with status UP (replication=true)
+2026-11-22 15:07:54 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 9ms
+2026-11-22 15:08:54 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 12ms
+2026-11-22 15:09:54 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 3ms
+2026-11-22 15:10:54 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 20ms
+2026-11-22 15:11:54 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 10ms
+2026-11-22 15:12:54 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 5ms
+2026-11-22 15:13:54 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 2ms
+2026-11-22 15:14:54 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 2ms
+2026-11-22 15:17:48 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 9.1.5.Final
+2026-11-22 15:17:48 [main] INFO  c.r.eureka.EurekaServerApplication - Starting EurekaServerApplication using Java 17.0.12 with PID 2968 (C:\Users\susmi\Documents\RailwayReservationSystem\Backend\eureka-server\target\classes started by susmi in C:\Users\susmi\Documents\RailwayReservationSystem\Backend\eureka-server)
+2026-11-22 15:17:48 [main] INFO  c.r.eureka.EurekaServerApplication - No active profile set, falling back to 1 default profile: "default"
+2026-11-22 15:17:52 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=80631226-7f71-3efc-b878-078163ac156c
+2026-11-22 15:17:53 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8761 (http)
+2026-11-22 15:17:53 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8761"]
+2026-11-22 15:17:53 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-11-22 15:17:53 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-11-22 15:17:53 [main] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 4918 ms
+2026-11-22 15:17:55 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2026-11-22 15:17:55 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2026-11-22 15:17:56 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2026-11-22 15:17:56 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2026-11-22 15:17:59 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-11-22 15:18:00 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2026-11-22 15:18:00 [main] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2026-11-22 15:18:00 [main] INFO  c.netflix.discovery.DiscoveryClient - Client configured to neither register nor query for data.
+2026-11-22 15:18:00 [main] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1795340880145 with initial instances count: 0
+2026-11-22 15:18:00 [main] INFO  c.n.e.DefaultEurekaServerContext - Initializing ...
+2026-11-22 15:18:00 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes - Adding new peer nodes [http://localhost:8761/eureka/]
+2026-11-22 15:18:00 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2026-11-22 15:18:00 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2026-11-22 15:18:00 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2026-11-22 15:18:00 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2026-11-22 15:18:00 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes - Replica node URL:  http://localhost:8761/eureka/
+2026-11-22 15:18:00 [main] INFO  c.n.e.r.AbstractInstanceRegistry - Finished initializing remote region registries. All known remote regions: []
+2026-11-22 15:18:00 [main] INFO  c.n.e.DefaultEurekaServerContext - Initialized
+2026-11-22 15:18:00 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoints beneath base path '/actuator'
+2026-11-22 15:18:00 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application EUREKA-SERVER with eureka with status UP
+2026-11-22 15:18:00 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8761"]
+2026-11-22 15:18:00 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap - isAws returned false
+2026-11-22 15:18:00 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Initialized server context
+2026-11-22 15:18:00 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Got 1 instances from neighboring DS node
+2026-11-22 15:18:00 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Renew threshold is: 1
+2026-11-22 15:18:00 [Thread-9] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Changing status to UP
+2026-11-22 15:18:00 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration - Started Eureka Server
+2026-11-22 15:18:00 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8761 (http) with context path '/'
+2026-11-22 15:18:00 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8761
+2026-11-22 15:18:01 [main] INFO  c.r.eureka.EurekaServerApplication - Started EurekaServerApplication in 14.664 seconds (process running for 16.314)
+2026-11-22 15:18:01 [main] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-11-22 15:18:01 [main] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-11-22 15:18:16 [http-nio-8761-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-22 15:18:16 [http-nio-8761-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-11-22 15:18:16 [http-nio-8761-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2026-11-22 15:18:17 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance LOGIN-SERVICE/susmithashan:login-service:8082 with status UP (replication=false)
+2026-11-22 15:18:18 [http-nio-8761-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance LOGIN-SERVICE/susmithashan:login-service:8082 with status UP (replication=true)
+2026-11-22 15:18:19 [http-nio-8761-exec-4] WARN  c.n.e.r.AbstractInstanceRegistry - DS: Registry: lease doesn't exist, registering resource: API-GATEWAY - susmithashan:api-gateway:8080
+2026-11-22 15:18:19 [http-nio-8761-exec-4] WARN  c.n.e.resources.InstanceResource - Not Found (Renew): API-GATEWAY - susmithashan:api-gateway:8080
+2026-11-22 15:18:19 [http-nio-8761-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance API-GATEWAY/susmithashan:api-gateway:8080 with status UP (replication=false)
+2026-11-22 15:18:19 [http-nio-8761-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance API-GATEWAY/susmithashan:api-gateway:8080 with status UP (replication=false)
+2026-11-22 15:18:20 [http-nio-8761-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance API-GATEWAY/susmithashan:api-gateway:8080 with status UP (replication=true)
+2026-11-22 15:18:44 [http-nio-8761-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance MESSAGING-SERVICE/susmithashan:messaging-service:8086 with status UP (replication=false)
+2026-11-22 15:18:44 [http-nio-8761-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance MESSAGING-SERVICE/susmithashan:messaging-service:8086 with status UP (replication=true)
+2026-11-22 15:19:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2026-11-22 15:19:12 [http-nio-8761-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance PAYMENT-SERVICE/susmithashan:payment-service:8085 with status UP (replication=false)
+2026-11-22 15:19:13 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance PAYMENT-SERVICE/susmithashan:payment-service:8085 with status UP (replication=true)
+2026-11-22 15:19:31 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance REGISTRATION-SERVICE/susmithashan:registration-service:8081 with status UP (replication=false)
+2026-11-22 15:19:32 [http-nio-8761-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance REGISTRATION-SERVICE/susmithashan:registration-service:8081 with status UP (replication=true)
+2026-11-22 15:19:59 [http-nio-8761-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance RESERVATION-SERVICE/susmithashan:reservation-service:8084 with status UP (replication=false)
+2026-11-22 15:20:00 [http-nio-8761-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance RESERVATION-SERVICE/susmithashan:reservation-service:8084 with status UP (replication=true)
+2026-11-22 15:20:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 4ms
+2026-11-22 15:20:09 [http-nio-8761-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance TRAIN-SERVICE/susmithashan:train-service:8083 with status UP (replication=false)
+2026-11-22 15:20:09 [http-nio-8761-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance TRAIN-SERVICE/susmithashan:train-service:8083 with status UP (replication=true)
+2026-11-22 15:21:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 12ms
+2026-11-22 15:22:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 11ms
+2026-11-22 15:23:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 2ms
+2026-11-22 15:24:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 3ms
+2026-11-22 15:24:29 [http-nio-8761-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance REGISTRATION-SERVICE/susmithashan:registration-service:8081 with status UP (replication=false)
+2026-11-22 15:24:30 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance REGISTRATION-SERVICE/susmithashan:registration-service:8081 with status UP (replication=true)
+2026-11-22 15:24:33 [http-nio-8761-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance REGISTRATION-SERVICE/susmithashan:registration-service:8081 with status DOWN (replication=false)
+2026-11-22 15:24:33 [http-nio-8761-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance REGISTRATION-SERVICE/susmithashan:registration-service:8081 with status DOWN (replication=true)
+2026-11-22 15:24:37 [http-nio-8761-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry - Cancelled instance REGISTRATION-SERVICE/susmithashan:registration-service:8081 (replication=false)
+2026-11-22 15:24:38 [http-nio-8761-exec-8] WARN  c.n.e.r.AbstractInstanceRegistry - DS: Registry: cancel failed because Lease is not registered for: REGISTRATION-SERVICE/susmithashan:registration-service:8081
+2026-11-22 15:24:38 [http-nio-8761-exec-8] INFO  c.n.e.resources.InstanceResource - Not Found (Cancel): REGISTRATION-SERVICE - susmithashan:registration-service:8081
+2026-11-22 15:24:38 [TaskBatchingWorker-target_localhost-1] WARN  c.n.eureka.cluster.ReplicationTask - The replication of task REGISTRATION-SERVICE/susmithashan:registration-service:8081:Cancel@localhost failed with response code 404
+2026-11-22 15:24:38 [TaskBatchingWorker-target_localhost-1] WARN  c.n.eureka.cluster.PeerEurekaNode - REGISTRATION-SERVICE/susmithashan:registration-service:8081:Cancel@localhost: missing entry.
+2026-11-22 15:25:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 8ms
+2026-11-22 15:25:01 [http-nio-8761-exec-2] WARN  c.n.e.r.AbstractInstanceRegistry - DS: Registry: lease doesn't exist, registering resource: REGISTRATION-SERVICE - susmithashan:registration-service:8081
+2026-11-22 15:25:01 [http-nio-8761-exec-2] WARN  c.n.e.resources.InstanceResource - Not Found (Renew): REGISTRATION-SERVICE - susmithashan:registration-service:8081
+2026-11-22 15:25:01 [http-nio-8761-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance REGISTRATION-SERVICE/susmithashan:registration-service:8081 with status UP (replication=false)
+2026-11-22 15:25:02 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance REGISTRATION-SERVICE/susmithashan:registration-service:8081 with status UP (replication=true)
+2026-11-22 15:26:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 28ms
+2026-11-22 15:27:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 8ms
+2026-11-22 15:27:39 [http-nio-8761-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance LOGIN-SERVICE/susmithashan:login-service:8082 with status UP (replication=false)
+2026-11-22 15:27:39 [http-nio-8761-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance LOGIN-SERVICE/susmithashan:login-service:8082 with status UP (replication=true)
+2026-11-22 15:27:40 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance LOGIN-SERVICE/susmithashan:login-service:8082 with status DOWN (replication=false)
+2026-11-22 15:27:41 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance LOGIN-SERVICE/susmithashan:login-service:8082 with status DOWN (replication=true)
+2026-11-22 15:27:43 [http-nio-8761-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry - Cancelled instance LOGIN-SERVICE/susmithashan:login-service:8082 (replication=false)
+2026-11-22 15:27:43 [http-nio-8761-exec-9] WARN  c.n.e.r.AbstractInstanceRegistry - DS: Registry: cancel failed because Lease is not registered for: LOGIN-SERVICE/susmithashan:login-service:8082
+2026-11-22 15:27:43 [http-nio-8761-exec-9] INFO  c.n.e.resources.InstanceResource - Not Found (Cancel): LOGIN-SERVICE - susmithashan:login-service:8082
+2026-11-22 15:27:43 [TaskBatchingWorker-target_localhost-2] WARN  c.n.eureka.cluster.ReplicationTask - The replication of task LOGIN-SERVICE/susmithashan:login-service:8082:Cancel@localhost failed with response code 404
+2026-11-22 15:27:43 [TaskBatchingWorker-target_localhost-2] WARN  c.n.eureka.cluster.PeerEurekaNode - LOGIN-SERVICE/susmithashan:login-service:8082:Cancel@localhost: missing entry.
+2026-11-22 15:27:47 [http-nio-8761-exec-3] WARN  c.n.e.r.AbstractInstanceRegistry - DS: Registry: lease doesn't exist, registering resource: LOGIN-SERVICE - susmithashan:login-service:8082
+2026-11-22 15:27:47 [http-nio-8761-exec-3] WARN  c.n.e.resources.InstanceResource - Not Found (Renew): LOGIN-SERVICE - susmithashan:login-service:8082
+2026-11-22 15:27:47 [http-nio-8761-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance LOGIN-SERVICE/susmithashan:login-service:8082 with status UP (replication=false)
+2026-11-22 15:27:48 [http-nio-8761-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance LOGIN-SERVICE/susmithashan:login-service:8082 with status UP (replication=true)
+2026-11-22 15:28:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+2026-11-22 15:29:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 7ms
+2026-11-22 15:30:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 7ms
+2026-11-22 15:31:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2026-11-22 15:32:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2026-11-22 15:33:00 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Current renewal threshold is : 0
+2026-11-22 15:33:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+2026-11-22 15:34:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 2ms
+2026-11-22 15:35:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 49ms
+2026-11-22 15:36:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 12ms
+2026-11-22 15:37:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2026-11-22 15:38:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2026-11-22 15:39:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2026-11-22 15:40:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 7ms
+2026-11-22 15:41:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2026-11-22 15:42:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 3ms
+2026-11-22 15:43:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 13ms
+2026-11-22 15:44:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 8ms
+2026-11-22 15:44:38 [http-nio-8761-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance PAYMENT-SERVICE/susmithashan:payment-service:8085 with status UP (replication=false)
+2026-11-22 15:44:39 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance PAYMENT-SERVICE/susmithashan:payment-service:8085 with status UP (replication=true)
+2026-11-22 15:44:42 [http-nio-8761-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance PAYMENT-SERVICE/susmithashan:payment-service:8085 with status DOWN (replication=false)
+2026-11-22 15:44:43 [http-nio-8761-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance PAYMENT-SERVICE/susmithashan:payment-service:8085 with status DOWN (replication=true)
+2026-11-22 15:44:46 [http-nio-8761-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry - Cancelled instance PAYMENT-SERVICE/susmithashan:payment-service:8085 (replication=false)
+2026-11-22 15:44:47 [http-nio-8761-exec-10] WARN  c.n.e.r.AbstractInstanceRegistry - DS: Registry: cancel failed because Lease is not registered for: PAYMENT-SERVICE/susmithashan:payment-service:8085
+2026-11-22 15:44:47 [http-nio-8761-exec-10] INFO  c.n.e.resources.InstanceResource - Not Found (Cancel): PAYMENT-SERVICE - susmithashan:payment-service:8085
+2026-11-22 15:44:47 [TaskBatchingWorker-target_localhost-4] WARN  c.n.eureka.cluster.ReplicationTask - The replication of task PAYMENT-SERVICE/susmithashan:payment-service:8085:Cancel@localhost failed with response code 404
+2026-11-22 15:44:47 [TaskBatchingWorker-target_localhost-4] WARN  c.n.eureka.cluster.PeerEurekaNode - PAYMENT-SERVICE/susmithashan:payment-service:8085:Cancel@localhost: missing entry.
+2026-11-22 15:45:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 9ms
+2026-11-22 15:45:14 [http-nio-8761-exec-3] WARN  c.n.e.r.AbstractInstanceRegistry - DS: Registry: lease doesn't exist, registering resource: PAYMENT-SERVICE - susmithashan:payment-service:8085
+2026-11-22 15:45:14 [http-nio-8761-exec-3] WARN  c.n.e.resources.InstanceResource - Not Found (Renew): PAYMENT-SERVICE - susmithashan:payment-service:8085
+2026-11-22 15:45:14 [http-nio-8761-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance PAYMENT-SERVICE/susmithashan:payment-service:8085 with status UP (replication=false)
+2026-11-22 15:45:14 [http-nio-8761-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance PAYMENT-SERVICE/susmithashan:payment-service:8085 with status UP (replication=true)
+2026-11-22 15:46:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2026-11-22 15:47:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2026-11-22 15:48:00 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Current renewal threshold is : 0
+2026-11-22 15:48:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2026-11-22 15:49:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2026-11-22 15:50:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2026-11-22 15:51:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2026-11-22 15:52:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2026-11-22 15:53:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 13ms
+2026-11-22 15:54:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+2026-11-22 15:55:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 11ms
+2026-11-22 15:56:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 2ms
+2026-11-22 15:57:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 3ms
+2026-11-22 15:58:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2026-11-22 15:59:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 8ms
+2026-11-22 16:00:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+2026-11-22 16:01:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+2026-11-22 16:02:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 7ms
+2026-11-22 16:03:00 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Current renewal threshold is : 0
+2026-11-22 16:03:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 4ms
+2026-11-22 16:04:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2026-11-22 16:05:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2026-11-22 16:06:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2026-11-22 16:07:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+2026-11-22 16:08:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2026-11-22 16:08:01 [http-nio-8761-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance REGISTRATION-SERVICE/susmithashan:registration-service:8081 with status UP (replication=false)
+2026-11-22 16:08:02 [http-nio-8761-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance REGISTRATION-SERVICE/susmithashan:registration-service:8081 with status UP (replication=true)
+2026-11-22 16:08:04 [http-nio-8761-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance REGISTRATION-SERVICE/susmithashan:registration-service:8081 with status DOWN (replication=false)
+2026-11-22 16:08:04 [http-nio-8761-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance REGISTRATION-SERVICE/susmithashan:registration-service:8081 with status DOWN (replication=true)
+2026-11-22 16:08:04 [TaskBatchingWorker-target_localhost-7] WARN  c.n.eureka.cluster.ReplicationTask - The replication of task REGISTRATION-SERVICE/susmithashan:registration-service:8081:Heartbeat@localhost failed with response code 409
+2026-11-22 16:08:04 [TaskBatchingWorker-target_localhost-7] WARN  c.n.eureka.cluster.PeerEurekaNode - Peer wants us to take the instance information from it, since the timestamp differs,Id : susmithashan:registration-service:8081 My Timestamp : 1795343881845, Peer's timestamp: 1795343884460
+2026-11-22 16:08:04 [TaskBatchingWorker-target_localhost-7] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance REGISTRATION-SERVICE/susmithashan:registration-service:8081 with status DOWN (replication=true)
+2026-11-22 16:08:08 [http-nio-8761-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry - Cancelled instance REGISTRATION-SERVICE/susmithashan:registration-service:8081 (replication=false)
+2026-11-22 16:08:08 [http-nio-8761-exec-3] WARN  c.n.e.r.AbstractInstanceRegistry - DS: Registry: cancel failed because Lease is not registered for: REGISTRATION-SERVICE/susmithashan:registration-service:8081
+2026-11-22 16:08:08 [http-nio-8761-exec-3] INFO  c.n.e.resources.InstanceResource - Not Found (Cancel): REGISTRATION-SERVICE - susmithashan:registration-service:8081
+2026-11-22 16:08:08 [TaskBatchingWorker-target_localhost-7] WARN  c.n.eureka.cluster.ReplicationTask - The replication of task REGISTRATION-SERVICE/susmithashan:registration-service:8081:Cancel@localhost failed with response code 404
+2026-11-22 16:08:08 [TaskBatchingWorker-target_localhost-7] WARN  c.n.eureka.cluster.PeerEurekaNode - REGISTRATION-SERVICE/susmithashan:registration-service:8081:Cancel@localhost: missing entry.
+2026-11-22 16:08:34 [http-nio-8761-exec-2] WARN  c.n.e.r.AbstractInstanceRegistry - DS: Registry: lease doesn't exist, registering resource: REGISTRATION-SERVICE - susmithashan:registration-service:8081
+2026-11-22 16:08:34 [http-nio-8761-exec-2] WARN  c.n.e.resources.InstanceResource - Not Found (Renew): REGISTRATION-SERVICE - susmithashan:registration-service:8081
+2026-11-22 16:08:34 [http-nio-8761-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance REGISTRATION-SERVICE/susmithashan:registration-service:8081 with status UP (replication=false)
+2026-11-22 16:08:34 [http-nio-8761-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance REGISTRATION-SERVICE/susmithashan:registration-service:8081 with status UP (replication=true)
+2026-11-22 16:09:00 [http-nio-8761-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance LOGIN-SERVICE/susmithashan:login-service:8082 with status UP (replication=false)
+2026-11-22 16:09:00 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance LOGIN-SERVICE/susmithashan:login-service:8082 with status UP (replication=true)
+2026-11-22 16:09:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+2026-11-22 16:09:01 [http-nio-8761-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance LOGIN-SERVICE/susmithashan:login-service:8082 with status DOWN (replication=false)
+2026-11-22 16:09:02 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance LOGIN-SERVICE/susmithashan:login-service:8082 with status DOWN (replication=true)
+2026-11-22 16:09:04 [http-nio-8761-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry - Cancelled instance LOGIN-SERVICE/susmithashan:login-service:8082 (replication=false)
+2026-11-22 16:09:05 [http-nio-8761-exec-2] WARN  c.n.e.r.AbstractInstanceRegistry - DS: Registry: cancel failed because Lease is not registered for: LOGIN-SERVICE/susmithashan:login-service:8082
+2026-11-22 16:09:05 [http-nio-8761-exec-2] INFO  c.n.e.resources.InstanceResource - Not Found (Cancel): LOGIN-SERVICE - susmithashan:login-service:8082
+2026-11-22 16:09:05 [TaskBatchingWorker-target_localhost-1] WARN  c.n.eureka.cluster.ReplicationTask - The replication of task LOGIN-SERVICE/susmithashan:login-service:8082:Cancel@localhost failed with response code 404
+2026-11-22 16:09:05 [TaskBatchingWorker-target_localhost-1] WARN  c.n.eureka.cluster.PeerEurekaNode - LOGIN-SERVICE/susmithashan:login-service:8082:Cancel@localhost: missing entry.
+2026-11-22 16:09:19 [http-nio-8761-exec-3] WARN  c.n.e.r.AbstractInstanceRegistry - DS: Registry: lease doesn't exist, registering resource: LOGIN-SERVICE - susmithashan:login-service:8082
+2026-11-22 16:09:19 [http-nio-8761-exec-3] WARN  c.n.e.resources.InstanceResource - Not Found (Renew): LOGIN-SERVICE - susmithashan:login-service:8082
+2026-11-22 16:09:19 [http-nio-8761-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance LOGIN-SERVICE/susmithashan:login-service:8082 with status UP (replication=false)
+2026-11-22 16:09:20 [http-nio-8761-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance LOGIN-SERVICE/susmithashan:login-service:8082 with status UP (replication=true)
+2026-11-22 16:10:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2026-11-22 16:10:23 [http-nio-8761-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance TRAIN-SERVICE/susmithashan:train-service:8083 with status UP (replication=false)
+2026-11-22 16:10:23 [http-nio-8761-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance TRAIN-SERVICE/susmithashan:train-service:8083 with status DOWN (replication=false)
+2026-11-22 16:10:23 [http-nio-8761-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance TRAIN-SERVICE/susmithashan:train-service:8083 with status DOWN (replication=true)
+2026-11-22 16:10:27 [http-nio-8761-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry - Cancelled instance TRAIN-SERVICE/susmithashan:train-service:8083 (replication=false)
+2026-11-22 16:10:27 [http-nio-8761-exec-6] WARN  c.n.e.r.AbstractInstanceRegistry - DS: Registry: cancel failed because Lease is not registered for: TRAIN-SERVICE/susmithashan:train-service:8083
+2026-11-22 16:10:27 [http-nio-8761-exec-6] INFO  c.n.e.resources.InstanceResource - Not Found (Cancel): TRAIN-SERVICE - susmithashan:train-service:8083
+2026-11-22 16:10:27 [TaskBatchingWorker-target_localhost-2] WARN  c.n.eureka.cluster.ReplicationTask - The replication of task TRAIN-SERVICE/susmithashan:train-service:8083:Cancel@localhost failed with response code 404
+2026-11-22 16:10:27 [TaskBatchingWorker-target_localhost-2] WARN  c.n.eureka.cluster.PeerEurekaNode - TRAIN-SERVICE/susmithashan:train-service:8083:Cancel@localhost: missing entry.
+2026-11-22 16:10:42 [http-nio-8761-exec-1] WARN  c.n.e.r.AbstractInstanceRegistry - DS: Registry: lease doesn't exist, registering resource: TRAIN-SERVICE - susmithashan:train-service:8083
+2026-11-22 16:10:42 [http-nio-8761-exec-1] WARN  c.n.e.resources.InstanceResource - Not Found (Renew): TRAIN-SERVICE - susmithashan:train-service:8083
+2026-11-22 16:10:42 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance TRAIN-SERVICE/susmithashan:train-service:8083 with status UP (replication=false)
+2026-11-22 16:10:42 [http-nio-8761-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance TRAIN-SERVICE/susmithashan:train-service:8083 with status UP (replication=true)
+2026-11-22 16:11:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+2026-11-22 16:11:54 [http-nio-8761-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance RESERVATION-SERVICE/susmithashan:reservation-service:8084 with status UP (replication=false)
+2026-11-22 16:11:55 [http-nio-8761-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance RESERVATION-SERVICE/susmithashan:reservation-service:8084 with status UP (replication=true)
+2026-11-22 16:11:56 [http-nio-8761-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance RESERVATION-SERVICE/susmithashan:reservation-service:8084 with status DOWN (replication=false)
+2026-11-22 16:11:57 [http-nio-8761-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance RESERVATION-SERVICE/susmithashan:reservation-service:8084 with status DOWN (replication=true)
+2026-11-22 16:12:00 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry - Cancelled instance RESERVATION-SERVICE/susmithashan:reservation-service:8084 (replication=false)
+2026-11-22 16:12:01 [http-nio-8761-exec-4] WARN  c.n.e.r.AbstractInstanceRegistry - DS: Registry: cancel failed because Lease is not registered for: RESERVATION-SERVICE/susmithashan:reservation-service:8084
+2026-11-22 16:12:01 [http-nio-8761-exec-4] INFO  c.n.e.resources.InstanceResource - Not Found (Cancel): RESERVATION-SERVICE - susmithashan:reservation-service:8084
+2026-11-22 16:12:01 [TaskBatchingWorker-target_localhost-12] WARN  c.n.eureka.cluster.ReplicationTask - The replication of task RESERVATION-SERVICE/susmithashan:reservation-service:8084:Cancel@localhost failed with response code 404
+2026-11-22 16:12:01 [TaskBatchingWorker-target_localhost-12] WARN  c.n.eureka.cluster.PeerEurekaNode - RESERVATION-SERVICE/susmithashan:reservation-service:8084:Cancel@localhost: missing entry.
+2026-11-22 16:12:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2026-11-22 16:12:02 [http-nio-8761-exec-7] WARN  c.n.e.r.AbstractInstanceRegistry - DS: Registry: lease doesn't exist, registering resource: RESERVATION-SERVICE - susmithashan:reservation-service:8084
+2026-11-22 16:12:02 [http-nio-8761-exec-7] WARN  c.n.e.resources.InstanceResource - Not Found (Renew): RESERVATION-SERVICE - susmithashan:reservation-service:8084
+2026-11-22 16:12:02 [http-nio-8761-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance RESERVATION-SERVICE/susmithashan:reservation-service:8084 with status UP (replication=false)
+2026-11-22 16:12:02 [http-nio-8761-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance RESERVATION-SERVICE/susmithashan:reservation-service:8084 with status UP (replication=true)
+2026-11-22 16:13:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2026-11-22 16:13:10 [http-nio-8761-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance PAYMENT-SERVICE/susmithashan:payment-service:8085 with status UP (replication=false)
+2026-11-22 16:13:10 [http-nio-8761-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance PAYMENT-SERVICE/susmithashan:payment-service:8085 with status UP (replication=true)
+2026-11-22 16:13:16 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance PAYMENT-SERVICE/susmithashan:payment-service:8085 with status DOWN (replication=false)
+2026-11-22 16:13:16 [http-nio-8761-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance PAYMENT-SERVICE/susmithashan:payment-service:8085 with status DOWN (replication=true)
+2026-11-22 16:13:16 [TaskBatchingWorker-target_localhost-8] WARN  c.n.eureka.cluster.ReplicationTask - The replication of task PAYMENT-SERVICE/susmithashan:payment-service:8085:Heartbeat@localhost failed with response code 409
+2026-11-22 16:13:16 [TaskBatchingWorker-target_localhost-8] WARN  c.n.eureka.cluster.PeerEurekaNode - Peer wants us to take the instance information from it, since the timestamp differs,Id : susmithashan:payment-service:8085 My Timestamp : 1795344190210, Peer's timestamp: 1795344196259
+2026-11-22 16:13:16 [TaskBatchingWorker-target_localhost-8] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance PAYMENT-SERVICE/susmithashan:payment-service:8085 with status DOWN (replication=true)
+2026-11-22 16:13:20 [http-nio-8761-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry - Cancelled instance PAYMENT-SERVICE/susmithashan:payment-service:8085 (replication=false)
+2026-11-22 16:13:20 [http-nio-8761-exec-5] WARN  c.n.e.r.AbstractInstanceRegistry - DS: Registry: cancel failed because Lease is not registered for: PAYMENT-SERVICE/susmithashan:payment-service:8085
+2026-11-22 16:13:20 [http-nio-8761-exec-5] INFO  c.n.e.resources.InstanceResource - Not Found (Cancel): PAYMENT-SERVICE - susmithashan:payment-service:8085
+2026-11-22 16:13:20 [TaskBatchingWorker-target_localhost-3] WARN  c.n.eureka.cluster.ReplicationTask - The replication of task PAYMENT-SERVICE/susmithashan:payment-service:8085:Cancel@localhost failed with response code 404
+2026-11-22 16:13:20 [TaskBatchingWorker-target_localhost-3] WARN  c.n.eureka.cluster.PeerEurekaNode - PAYMENT-SERVICE/susmithashan:payment-service:8085:Cancel@localhost: missing entry.
+2026-11-22 16:13:45 [http-nio-8761-exec-7] WARN  c.n.e.r.AbstractInstanceRegistry - DS: Registry: lease doesn't exist, registering resource: PAYMENT-SERVICE - susmithashan:payment-service:8085
+2026-11-22 16:13:45 [http-nio-8761-exec-7] WARN  c.n.e.resources.InstanceResource - Not Found (Renew): PAYMENT-SERVICE - susmithashan:payment-service:8085
+2026-11-22 16:13:45 [http-nio-8761-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance PAYMENT-SERVICE/susmithashan:payment-service:8085 with status UP (replication=false)
+2026-11-22 16:13:46 [http-nio-8761-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance PAYMENT-SERVICE/susmithashan:payment-service:8085 with status UP (replication=true)
+2026-11-22 16:14:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2026-11-22 16:14:08 [http-nio-8761-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance MESSAGING-SERVICE/susmithashan:messaging-service:8086 with status UP (replication=false)
+2026-11-22 16:14:09 [http-nio-8761-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance MESSAGING-SERVICE/susmithashan:messaging-service:8086 with status UP (replication=true)
+2026-11-22 16:14:19 [http-nio-8761-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance MESSAGING-SERVICE/susmithashan:messaging-service:8086 with status DOWN (replication=false)
+2026-11-22 16:14:19 [http-nio-8761-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance MESSAGING-SERVICE/susmithashan:messaging-service:8086 with status DOWN (replication=true)
+2026-11-22 16:14:23 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry - Cancelled instance MESSAGING-SERVICE/susmithashan:messaging-service:8086 (replication=false)
+2026-11-22 16:14:24 [http-nio-8761-exec-9] WARN  c.n.e.r.AbstractInstanceRegistry - DS: Registry: cancel failed because Lease is not registered for: MESSAGING-SERVICE/susmithashan:messaging-service:8086
+2026-11-22 16:14:24 [http-nio-8761-exec-9] INFO  c.n.e.resources.InstanceResource - Not Found (Cancel): MESSAGING-SERVICE - susmithashan:messaging-service:8086
+2026-11-22 16:14:24 [TaskBatchingWorker-target_localhost-4] WARN  c.n.eureka.cluster.ReplicationTask - The replication of task MESSAGING-SERVICE/susmithashan:messaging-service:8086:Cancel@localhost failed with response code 404
+2026-11-22 16:14:24 [TaskBatchingWorker-target_localhost-4] WARN  c.n.eureka.cluster.PeerEurekaNode - MESSAGING-SERVICE/susmithashan:messaging-service:8086:Cancel@localhost: missing entry.
+2026-11-22 16:14:47 [http-nio-8761-exec-4] WARN  c.n.e.r.AbstractInstanceRegistry - DS: Registry: lease doesn't exist, registering resource: MESSAGING-SERVICE - susmithashan:messaging-service:8086
+2026-11-22 16:14:47 [http-nio-8761-exec-4] WARN  c.n.e.resources.InstanceResource - Not Found (Renew): MESSAGING-SERVICE - susmithashan:messaging-service:8086
+2026-11-22 16:14:47 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance MESSAGING-SERVICE/susmithashan:messaging-service:8086 with status UP (replication=false)
+2026-11-22 16:14:47 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance MESSAGING-SERVICE/susmithashan:messaging-service:8086 with status UP (replication=true)
+2026-11-22 16:15:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 4ms
+2026-11-22 16:16:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 9ms
+2026-11-22 16:17:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 2ms
+2026-11-22 16:18:00 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Current renewal threshold is : 0
+2026-11-22 16:18:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 3ms
+2026-11-22 16:19:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+2026-11-22 16:20:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 9ms
+2026-11-22 16:21:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 9ms
+2026-11-22 16:22:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 3ms
+2026-11-22 16:23:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 3ms
+2026-11-22 16:24:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 12ms
+2026-11-22 16:25:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+2026-11-22 16:26:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2026-11-22 16:27:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 6ms
+2026-11-22 16:28:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 8ms
+2026-11-22 16:29:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 3ms
+2026-11-22 16:30:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 4ms
+2026-11-22 16:31:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 15ms
+2026-11-22 16:32:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2026-11-22 16:33:00 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Current renewal threshold is : 0
+2026-11-22 16:33:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2026-11-22 16:34:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2026-11-22 16:35:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2026-11-22 16:36:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2026-11-22 16:37:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2026-11-22 16:38:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2026-11-22 16:39:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2026-11-22 16:40:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 4ms
+2026-11-22 16:41:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 5ms
+2026-11-22 16:42:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 3ms
+2026-11-22 16:43:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2026-11-22 16:44:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 8ms
+2026-11-22 16:45:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 11ms
+2026-11-22 16:46:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 14ms
+2026-11-22 16:47:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 5ms
+2026-11-22 16:48:00 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Current renewal threshold is : 0
+2026-11-22 16:48:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+2026-11-22 16:49:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 3ms
+2026-11-22 16:50:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 4ms
+2026-11-22 16:51:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 14ms
+2026-11-22 16:52:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2026-11-22 16:53:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 5ms
+2026-11-22 16:54:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 7ms
+2026-11-22 16:55:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 10ms
+2026-11-22 16:56:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 14ms
+2026-11-22 16:57:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 11ms
+2026-11-22 16:58:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 10ms
+2026-11-22 16:59:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 14ms
+2026-11-22 17:00:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 5ms
+2026-11-22 17:01:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 2ms
+2026-11-22 17:02:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2026-11-22 17:03:00 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Current renewal threshold is : 0
+2026-11-22 17:03:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 13ms
+2026-11-22 17:04:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 8ms
+2026-11-22 17:05:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 12ms
+2026-11-22 17:06:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 6ms
+2026-11-22 17:07:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 2ms
+2026-11-22 17:08:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 5ms
+2026-11-22 17:09:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 18ms
+2026-11-22 17:10:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 7ms
+2026-11-22 17:11:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 11ms
+2026-11-22 17:12:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 7ms
+2026-11-22 17:13:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 5ms
+2026-11-22 17:14:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 14ms
+2026-11-22 17:15:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 7ms
+2026-11-22 17:16:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+2026-11-22 17:17:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 7ms
+2026-11-22 17:18:00 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Current renewal threshold is : 0
+2026-11-22 17:18:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2026-11-22 17:19:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 8ms
+2026-11-22 17:20:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 9ms
+2026-11-22 17:21:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 29ms
+2026-11-22 17:22:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 12ms
+2026-11-22 17:23:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 14ms
+2026-11-22 17:24:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 4ms
+2026-11-22 17:25:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 10ms
+2026-11-22 17:26:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2026-11-22 17:27:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 5ms
+2026-11-22 17:28:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 3ms
+2026-11-22 17:29:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 5ms
+2026-11-22 17:30:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 3ms
+2026-11-22 17:31:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 3ms
+2026-11-22 17:32:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 10ms
+2026-11-22 17:33:00 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Current renewal threshold is : 0
+2026-11-22 17:33:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 6ms
+2026-11-22 17:34:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 6ms
+2026-11-22 17:35:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 4ms
+2026-11-22 17:36:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 5ms
+2026-11-22 17:37:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 16ms
+2026-11-22 17:38:01 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 11ms
+2026-11-22 17:39:02 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 2ms
+2026-11-22 17:40:02 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 7ms
+2026-11-22 17:41:02 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 13ms
+2026-11-22 17:42:02 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
