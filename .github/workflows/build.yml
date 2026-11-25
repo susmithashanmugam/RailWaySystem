@@ -1,0 +1,56 @@
+
+name: SonarQube Code Quality
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  build:
+    name: Build and Analyze
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Java 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Build and Test All Microservices
+        working-directory: Backend
+        run: |
+          for service in api-gateway eureka-server login-service messaging-service payment-service registration-service reservation-service train-service
+          do
+            echo "Building $service"
+            chmod +x "$service/mvnw"
+            "$service/mvnw" -f "$service/pom.xml" clean verify
+          done
+
+      - name: Cache SonarQube
+        uses: actions/cache@v4
+        with:
+          path: ~/.sonar/cache
+          key: ${{ runner.os }}-sonar
+
+      - name: SonarQube Scan
+        uses: SonarSource/sonarqube-scan-action@v6
+        env:
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+        with:
+          args: >
+            -Dsonar.organization=susmithashanmugam-1
+            -Dsonar.projectKey=susmithashanmugam_RailWaySystem
+            -Dsonar.host.url=https://sonarcloud.io
+            -Dsonar.sources=Backend
+            -Dsonar.java.binaries=Backend/*/target/classes
+            -Dsonar.exclusions=**/target/**,**/docs/**,**/.mvn/**
+            -Dsonar.coverage.jacoco.xmlReportPaths=Backend/login-service/target/site/jacoco/jacoco.xml,Backend/messaging-service/target/site/jacoco/jacoco.xml,Backend/payment-service/target/site/jacoco/jacoco.xml,Backend/registration-service/target/site/jacoco/jacoco.xml,Backend/reservation-service/target/site/jacoco/jacoco.xml,Backend/train-service/target/site/jacoco/jacoco.xml
