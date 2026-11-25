@@ -1,0 +1,439 @@
+2026-11-19T10:34:59.332+05:30  INFO 11448 --- [train-service] [main] c.r.t.TrainServiceApplication            : Starting TrainServiceApplication using Java 17.0.12 with PID 11448 (C:\Users\susmi\Documents\RailwayReservationSystem\Backend\train-service\target\classes started by susmi in C:\Users\susmi\Documents\RailwayReservationSystem\Backend\train-service)
+2026-11-19T10:34:59.355+05:30  INFO 11448 --- [train-service] [main] c.r.t.TrainServiceApplication            : No active profile set, falling back to 1 default profile: "default"
+2026-11-19T10:35:01.580+05:30  INFO 11448 --- [train-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-19T10:35:01.993+05:30  INFO 11448 --- [train-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 391 ms. Found 4 JPA repository interfaces.
+2026-11-19T10:35:02.791+05:30  INFO 11448 --- [train-service] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=5a86777a-a64f-3183-b43b-975b00e93f71
+2026-11-19T10:35:04.311+05:30  INFO 11448 --- [train-service] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8083 (http)
+2026-11-19T10:35:04.366+05:30  INFO 11448 --- [train-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-19T10:35:04.368+05:30  INFO 11448 --- [train-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-11-19T10:35:04.722+05:30  INFO 11448 --- [train-service] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 5241 ms
+2026-11-19T10:35:05.460+05:30  INFO 11448 --- [train-service] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-11-19T10:35:05.621+05:30  INFO 11448 --- [train-service] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.13.Final
+2026-11-19T10:35:06.773+05:30  INFO 11448 --- [train-service] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-19T10:35:06.867+05:30  INFO 11448 --- [train-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-11-19T10:35:07.670+05:30  INFO 11448 --- [train-service] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6ba0dcba
+2026-11-19T10:35:07.674+05:30  INFO 11448 --- [train-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-11-19T10:35:08.036+05:30  INFO 11448 --- [train-service] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/railway_train_db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.46
+	Default catalog/schema: railway_train_db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-19T10:35:10.627+05:30  INFO 11448 --- [train-service] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-19T10:35:11.007+05:30  INFO 11448 --- [train-service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-19T10:35:11.359+05:30  INFO 11448 --- [train-service] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-11-19T10:35:12.477+05:30  WARN 11448 --- [train-service] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-11-19T10:35:16.055+05:30  INFO 11448 --- [train-service] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestClient.
+2026-11-19T10:35:16.157+05:30  WARN 11448 --- [train-service] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-11-19T10:35:16.173+05:30  INFO 11448 --- [train-service] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoints beneath base path '/actuator'
+2026-11-19T10:35:16.352+05:30  INFO 11448 --- [train-service] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2026-11-19T10:35:16.412+05:30  INFO 11448 --- [train-service] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2026-11-19T10:35:16.422+05:30  INFO 11448 --- [train-service] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T10:35:16.444+05:30  INFO 11448 --- [train-service] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2026-11-19T10:35:16.453+05:30  INFO 11448 --- [train-service] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2026-11-19T10:35:16.455+05:30  INFO 11448 --- [train-service] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2026-11-19T10:35:16.455+05:30  INFO 11448 --- [train-service] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2026-11-19T10:35:16.457+05:30  INFO 11448 --- [train-service] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2026-11-19T10:35:16.457+05:30  INFO 11448 --- [train-service] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2026-11-19T10:35:16.457+05:30  INFO 11448 --- [train-service] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2026-11-19T10:35:17.418+05:30  INFO 11448 --- [train-service] [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2026-11-19T10:35:17.423+05:30  INFO 11448 --- [train-service] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2026-11-19T10:35:17.423+05:30  INFO 11448 --- [train-service] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2026-11-19T10:35:17.423+05:30  INFO 11448 --- [train-service] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1795064717423 with initial instances count: 3
+2026-11-19T10:35:17.438+05:30  INFO 11448 --- [train-service] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application TRAIN-SERVICE with eureka with status UP
+2026-11-19T10:35:17.442+05:30  INFO 11448 --- [train-service] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1795064717442, current=UP, previous=STARTING]
+2026-11-19T10:35:17.449+05:30  INFO 11448 --- [train-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TRAIN-SERVICE/susmithashan:train-service:8083: registering service...
+2026-11-19T10:35:17.529+05:30  INFO 11448 --- [train-service] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8083 (http) with context path '/'
+2026-11-19T10:35:17.529+05:30  INFO 11448 --- [train-service] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8083
+2026-11-19T10:35:17.574+05:30  INFO 11448 --- [train-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TRAIN-SERVICE/susmithashan:train-service:8083 - registration status: 204
+2026-11-19T10:35:17.920+05:30  INFO 11448 --- [train-service] [main] c.r.t.TrainServiceApplication            : Started TrainServiceApplication in 20.188 seconds (process running for 21.454)
+2026-11-19T10:40:16.476+05:30  INFO 11448 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T10:45:16.485+05:30  INFO 11448 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T10:50:16.491+05:30  INFO 11448 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T10:51:56.549+05:30  INFO 11448 --- [train-service] [http-nio-8083-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-19T10:51:56.551+05:30  INFO 11448 --- [train-service] [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-11-19T10:51:56.567+05:30  INFO 11448 --- [train-service] [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2026-11-19T10:55:16.492+05:30  INFO 11448 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T11:00:16.510+05:30  INFO 11448 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T11:05:16.521+05:30  INFO 11448 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T11:10:16.527+05:30  INFO 11448 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T11:15:16.537+05:30  INFO 11448 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T11:30:08.939+05:30  WARN 11448 --- [train-service] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11m536ms611µs900ns).
+2026-11-19T11:30:47.116+05:30  INFO 11448 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T11:35:47.131+05:30  INFO 11448 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T11:40:47.145+05:30  INFO 11448 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T11:45:47.152+05:30  INFO 11448 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T11:50:47.156+05:30  INFO 11448 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T11:55:47.167+05:30  INFO 11448 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T12:00:47.175+05:30  INFO 11448 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T12:05:47.179+05:30  INFO 11448 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T12:10:47.194+05:30  INFO 11448 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T12:15:47.204+05:30  INFO 11448 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T12:20:47.215+05:30  INFO 11448 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T12:25:47.226+05:30  INFO 11448 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T12:30:47.234+05:30  INFO 11448 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T12:35:47.241+05:30  INFO 11448 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T12:40:47.258+05:30  INFO 11448 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T12:45:47.263+05:30  INFO 11448 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T12:50:47.270+05:30  INFO 11448 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T12:55:47.287+05:30  INFO 11448 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T13:00:47.305+05:30  INFO 11448 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T13:05:47.315+05:30  INFO 11448 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T13:10:47.326+05:30  INFO 11448 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T13:15:47.333+05:30  INFO 11448 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T13:20:47.352+05:30  INFO 11448 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T13:25:47.360+05:30  INFO 11448 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T13:30:47.370+05:30  INFO 11448 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T13:35:47.384+05:30  INFO 11448 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T13:40:47.394+05:30  INFO 11448 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T13:45:47.403+05:30  INFO 11448 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T13:50:47.418+05:30  INFO 11448 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T13:55:47.434+05:30  INFO 11448 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T14:00:47.436+05:30  INFO 11448 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T14:05:47.487+05:30  INFO 11448 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T14:10:47.560+05:30  INFO 11448 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T14:36:52.719+05:30  WARN 11448 --- [train-service] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=25m11s96ms369µs400ns).
+2026-11-19T15:38:43.286+05:30  WARN 11448 --- [train-service] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h2m900ms221µs).
+2026-11-19T15:42:07.706+05:30  INFO 11448 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T15:47:07.722+05:30  INFO 11448 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T15:52:07.730+05:30  INFO 11448 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T15:57:07.734+05:30  INFO 11448 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T16:02:07.740+05:30  INFO 11448 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T16:07:07.752+05:30  INFO 11448 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T16:12:07.762+05:30  INFO 11448 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T16:17:07.773+05:30  INFO 11448 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T16:22:07.776+05:30  INFO 11448 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T16:27:07.795+05:30  INFO 11448 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T16:32:07.805+05:30  INFO 11448 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T16:37:07.811+05:30  INFO 11448 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T16:42:07.825+05:30  INFO 11448 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T16:47:07.831+05:30  INFO 11448 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T16:52:07.845+05:30  INFO 11448 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T16:57:07.859+05:30  INFO 11448 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T17:02:07.863+05:30  INFO 11448 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T17:07:07.871+05:30  INFO 11448 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T19:07:28.011+05:30  INFO 30584 --- [train-service] [main] c.r.t.TrainServiceApplication            : Starting TrainServiceApplication using Java 17.0.12 with PID 30584 (C:\Users\susmi\Documents\RailwayReservationSystem\Backend\train-service\target\classes started by susmi in C:\Users\susmi\Documents\RailwayReservationSystem\Backend\train-service)
+2026-11-19T19:07:28.018+05:30  INFO 30584 --- [train-service] [main] c.r.t.TrainServiceApplication            : No active profile set, falling back to 1 default profile: "default"
+2026-11-19T19:07:31.121+05:30  INFO 30584 --- [train-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-19T19:07:31.895+05:30  INFO 30584 --- [train-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 736 ms. Found 4 JPA repository interfaces.
+2026-11-19T19:07:33.205+05:30  INFO 30584 --- [train-service] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=5a86777a-a64f-3183-b43b-975b00e93f71
+2026-11-19T19:07:35.341+05:30  INFO 30584 --- [train-service] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8083 (http)
+2026-11-19T19:07:35.521+05:30  INFO 30584 --- [train-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-19T19:07:35.541+05:30  INFO 30584 --- [train-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-11-19T19:07:35.907+05:30  INFO 30584 --- [train-service] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 7741 ms
+2026-11-19T19:07:37.200+05:30  INFO 30584 --- [train-service] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-11-19T19:07:37.548+05:30  INFO 30584 --- [train-service] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.13.Final
+2026-11-19T19:07:39.690+05:30  INFO 30584 --- [train-service] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-19T19:07:39.810+05:30  INFO 30584 --- [train-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-11-19T19:07:41.156+05:30  INFO 30584 --- [train-service] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@66851aa5
+2026-11-19T19:07:41.164+05:30  INFO 30584 --- [train-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-11-19T19:07:41.539+05:30  INFO 30584 --- [train-service] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/railway_train_db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.46
+	Default catalog/schema: railway_train_db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-19T19:07:45.038+05:30  INFO 30584 --- [train-service] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-19T19:07:45.293+05:30  INFO 30584 --- [train-service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-19T19:07:45.504+05:30  INFO 30584 --- [train-service] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-11-19T19:07:46.462+05:30  WARN 30584 --- [train-service] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-11-19T19:07:50.401+05:30  INFO 30584 --- [train-service] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestClient.
+2026-11-19T19:07:50.574+05:30  WARN 30584 --- [train-service] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-11-19T19:07:50.598+05:30  INFO 30584 --- [train-service] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoints beneath base path '/actuator'
+2026-11-19T19:07:50.790+05:30  INFO 30584 --- [train-service] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2026-11-19T19:07:50.885+05:30  INFO 30584 --- [train-service] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2026-11-19T19:07:50.902+05:30  INFO 30584 --- [train-service] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T19:07:50.940+05:30  INFO 30584 --- [train-service] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2026-11-19T19:07:50.942+05:30  INFO 30584 --- [train-service] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2026-11-19T19:07:50.942+05:30  INFO 30584 --- [train-service] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2026-11-19T19:07:50.942+05:30  INFO 30584 --- [train-service] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2026-11-19T19:07:50.942+05:30  INFO 30584 --- [train-service] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2026-11-19T19:07:50.945+05:30  INFO 30584 --- [train-service] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2026-11-19T19:07:50.945+05:30  INFO 30584 --- [train-service] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2026-11-19T19:07:51.972+05:30  INFO 30584 --- [train-service] [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2026-11-19T19:07:51.978+05:30  INFO 30584 --- [train-service] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2026-11-19T19:07:51.984+05:30  INFO 30584 --- [train-service] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2026-11-19T19:07:51.991+05:30  INFO 30584 --- [train-service] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1795095471989 with initial instances count: 2
+2026-11-19T19:07:52.001+05:30  INFO 30584 --- [train-service] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application TRAIN-SERVICE with eureka with status UP
+2026-11-19T19:07:52.001+05:30  INFO 30584 --- [train-service] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1795095472001, current=UP, previous=STARTING]
+2026-11-19T19:07:52.009+05:30  INFO 30584 --- [train-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TRAIN-SERVICE/susmithashan:train-service:8083: registering service...
+2026-11-19T19:07:52.073+05:30  INFO 30584 --- [train-service] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8083 (http) with context path '/'
+2026-11-19T19:07:52.078+05:30  INFO 30584 --- [train-service] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8083
+2026-11-19T19:07:52.123+05:30  INFO 30584 --- [train-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TRAIN-SERVICE/susmithashan:train-service:8083 - registration status: 204
+2026-11-19T19:07:52.535+05:30  INFO 30584 --- [train-service] [main] c.r.t.TrainServiceApplication            : Started TrainServiceApplication in 26.169 seconds (process running for 27.691)
+2026-11-19T19:08:03.619+05:30  INFO 30584 --- [train-service] [http-nio-8083-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-19T19:08:03.619+05:30  INFO 30584 --- [train-service] [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-11-19T19:08:03.626+05:30  INFO 30584 --- [train-service] [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2026-11-19T19:12:51.001+05:30  INFO 30584 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T19:14:50.779+05:30  INFO 30584 --- [train-service] [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application TRAIN-SERVICE with eureka with status DOWN
+2026-11-19T19:14:50.781+05:30  INFO 30584 --- [train-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1795095890781, current=DOWN, previous=UP]
+2026-11-19T19:14:50.782+05:30  INFO 30584 --- [train-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TRAIN-SERVICE/susmithashan:train-service:8083: registering service...
+2026-11-19T19:14:50.804+05:30  INFO 30584 --- [train-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TRAIN-SERVICE/susmithashan:train-service:8083 - registration status: 204
+2026-11-19T19:14:50.804+05:30  INFO 30584 --- [train-service] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-19T19:14:51.110+05:30  INFO 30584 --- [train-service] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-19T19:14:51.141+05:30  INFO 30584 --- [train-service] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-11-19T19:14:51.151+05:30  INFO 30584 --- [train-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-11-19T19:14:51.182+05:30  INFO 30584 --- [train-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-11-19T19:14:51.185+05:30  INFO 30584 --- [train-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2026-11-19T19:14:54.194+05:30  WARN 30584 --- [train-service] [DiscoveryClient-%d] c.netflix.discovery.TimedSupervisorTask  : task supervisor shutting down, can't accept the task
+2026-11-19T19:14:54.194+05:30  INFO 30584 --- [train-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2026-11-19T19:14:54.203+05:30  INFO 30584 --- [train-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TRAIN-SERVICE/susmithashan:train-service:8083 - deregister  status: 200
+2026-11-19T19:14:54.205+05:30  INFO 30584 --- [train-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2026-11-19T19:15:49.097+05:30  INFO 3460 --- [train-service] [main] c.r.t.TrainServiceApplication            : Starting TrainServiceApplication using Java 17.0.12 with PID 3460 (C:\Users\susmi\Documents\RailwayReservationSystem\Backend\train-service\target\classes started by susmi in C:\Users\susmi\Documents\RailwayReservationSystem\Backend\train-service)
+2026-11-19T19:15:49.111+05:30  INFO 3460 --- [train-service] [main] c.r.t.TrainServiceApplication            : No active profile set, falling back to 1 default profile: "default"
+2026-11-19T19:15:52.338+05:30  INFO 3460 --- [train-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-19T19:15:52.995+05:30  INFO 3460 --- [train-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 605 ms. Found 4 JPA repository interfaces.
+2026-11-19T19:15:53.948+05:30  INFO 3460 --- [train-service] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=5a86777a-a64f-3183-b43b-975b00e93f71
+2026-11-19T19:15:55.533+05:30  INFO 3460 --- [train-service] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8083 (http)
+2026-11-19T19:15:55.581+05:30  INFO 3460 --- [train-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-19T19:15:55.584+05:30  INFO 3460 --- [train-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-11-19T19:15:55.846+05:30  INFO 3460 --- [train-service] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 6602 ms
+2026-11-19T19:15:57.005+05:30  INFO 3460 --- [train-service] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-11-19T19:15:57.193+05:30  INFO 3460 --- [train-service] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.13.Final
+2026-11-19T19:15:58.888+05:30  INFO 3460 --- [train-service] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-19T19:15:59.009+05:30  INFO 3460 --- [train-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-11-19T19:16:00.061+05:30  INFO 3460 --- [train-service] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@245b0bd7
+2026-11-19T19:16:00.069+05:30  INFO 3460 --- [train-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-11-19T19:16:00.362+05:30  INFO 3460 --- [train-service] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/railway_train_db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.46
+	Default catalog/schema: railway_train_db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-19T19:16:03.825+05:30  INFO 3460 --- [train-service] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-19T19:16:04.082+05:30  INFO 3460 --- [train-service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-19T19:16:04.272+05:30  INFO 3460 --- [train-service] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-11-19T19:16:05.001+05:30  WARN 3460 --- [train-service] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-11-19T19:16:08.112+05:30  INFO 3460 --- [train-service] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestClient.
+2026-11-19T19:16:08.219+05:30  WARN 3460 --- [train-service] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-11-19T19:16:08.236+05:30  INFO 3460 --- [train-service] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoints beneath base path '/actuator'
+2026-11-19T19:16:08.590+05:30  INFO 3460 --- [train-service] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2026-11-19T19:16:08.744+05:30  INFO 3460 --- [train-service] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2026-11-19T19:16:08.774+05:30  INFO 3460 --- [train-service] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T19:16:08.841+05:30  INFO 3460 --- [train-service] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2026-11-19T19:16:08.843+05:30  INFO 3460 --- [train-service] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2026-11-19T19:16:08.845+05:30  INFO 3460 --- [train-service] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2026-11-19T19:16:08.847+05:30  INFO 3460 --- [train-service] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2026-11-19T19:16:08.848+05:30  INFO 3460 --- [train-service] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2026-11-19T19:16:08.850+05:30  INFO 3460 --- [train-service] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2026-11-19T19:16:08.853+05:30  INFO 3460 --- [train-service] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2026-11-19T19:16:10.106+05:30  INFO 3460 --- [train-service] [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2026-11-19T19:16:10.118+05:30  INFO 3460 --- [train-service] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2026-11-19T19:16:10.132+05:30  INFO 3460 --- [train-service] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2026-11-19T19:16:10.138+05:30  INFO 3460 --- [train-service] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1795095970137 with initial instances count: 4
+2026-11-19T19:16:10.151+05:30  INFO 3460 --- [train-service] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application TRAIN-SERVICE with eureka with status UP
+2026-11-19T19:16:10.155+05:30  INFO 3460 --- [train-service] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1795095970155, current=UP, previous=STARTING]
+2026-11-19T19:16:10.165+05:30  INFO 3460 --- [train-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TRAIN-SERVICE/susmithashan:train-service:8083: registering service...
+2026-11-19T19:16:10.224+05:30  INFO 3460 --- [train-service] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8083 (http) with context path '/'
+2026-11-19T19:16:10.227+05:30  INFO 3460 --- [train-service] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8083
+2026-11-19T19:16:10.266+05:30  INFO 3460 --- [train-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TRAIN-SERVICE/susmithashan:train-service:8083 - registration status: 204
+2026-11-19T19:16:10.574+05:30  INFO 3460 --- [train-service] [main] c.r.t.TrainServiceApplication            : Started TrainServiceApplication in 23.358 seconds (process running for 25.023)
+2026-11-19T19:17:10.038+05:30  INFO 3460 --- [train-service] [http-nio-8083-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-19T19:17:10.039+05:30  INFO 3460 --- [train-service] [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-11-19T19:17:10.041+05:30  INFO 3460 --- [train-service] [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-11-19T19:21:08.902+05:30  INFO 3460 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T19:25:13.619+05:30  INFO 3460 --- [train-service] [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application TRAIN-SERVICE with eureka with status DOWN
+2026-11-19T19:25:13.621+05:30  INFO 3460 --- [train-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1795096513621, current=DOWN, previous=UP]
+2026-11-19T19:25:13.623+05:30  INFO 3460 --- [train-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TRAIN-SERVICE/susmithashan:train-service:8083: registering service...
+2026-11-19T19:25:13.637+05:30  INFO 3460 --- [train-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TRAIN-SERVICE/susmithashan:train-service:8083 - registration status: 204
+2026-11-19T19:25:13.649+05:30  INFO 3460 --- [train-service] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-19T19:25:13.824+05:30  INFO 3460 --- [train-service] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-19T19:25:13.841+05:30  INFO 3460 --- [train-service] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-11-19T19:25:13.848+05:30  INFO 3460 --- [train-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-11-19T19:25:13.867+05:30  INFO 3460 --- [train-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-11-19T19:25:13.870+05:30  INFO 3460 --- [train-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2026-11-19T19:25:16.877+05:30  INFO 3460 --- [train-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2026-11-19T19:25:16.897+05:30  INFO 3460 --- [train-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TRAIN-SERVICE/susmithashan:train-service:8083 - deregister  status: 200
+2026-11-19T19:25:16.901+05:30  INFO 3460 --- [train-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2026-11-19T19:26:11.416+05:30  INFO 16728 --- [train-service] [main] c.r.t.TrainServiceApplication            : Starting TrainServiceApplication using Java 17.0.12 with PID 16728 (C:\Users\susmi\Documents\RailwayReservationSystem\Backend\train-service\target\classes started by susmi in C:\Users\susmi\Documents\RailwayReservationSystem\Backend\train-service)
+2026-11-19T19:26:11.424+05:30  INFO 16728 --- [train-service] [main] c.r.t.TrainServiceApplication            : No active profile set, falling back to 1 default profile: "default"
+2026-11-19T19:26:14.106+05:30  INFO 16728 --- [train-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-19T19:26:14.484+05:30  INFO 16728 --- [train-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 354 ms. Found 4 JPA repository interfaces.
+2026-11-19T19:26:15.483+05:30  INFO 16728 --- [train-service] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=49997b5a-b1fb-3eda-bb65-0e8cfd53b053
+2026-11-19T19:26:16.578+05:30  INFO 16728 --- [train-service] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8083 (http)
+2026-11-19T19:26:16.611+05:30  INFO 16728 --- [train-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-19T19:26:16.612+05:30  INFO 16728 --- [train-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-11-19T19:26:16.812+05:30  INFO 16728 --- [train-service] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 5273 ms
+2026-11-19T19:26:17.882+05:30  INFO 16728 --- [train-service] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-11-19T19:26:18.077+05:30  INFO 16728 --- [train-service] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.13.Final
+2026-11-19T19:26:19.724+05:30  INFO 16728 --- [train-service] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-19T19:26:19.845+05:30  INFO 16728 --- [train-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-11-19T19:26:20.707+05:30  INFO 16728 --- [train-service] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7e741d6b
+2026-11-19T19:26:20.715+05:30  INFO 16728 --- [train-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-11-19T19:26:20.998+05:30  INFO 16728 --- [train-service] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/railway_train_db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.46
+	Default catalog/schema: railway_train_db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-19T19:26:23.591+05:30  INFO 16728 --- [train-service] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-19T19:26:23.799+05:30  INFO 16728 --- [train-service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-19T19:26:24.036+05:30  INFO 16728 --- [train-service] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-11-19T19:26:26.931+05:30  WARN 16728 --- [train-service] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-11-19T19:26:30.313+05:30  INFO 16728 --- [train-service] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestClient.
+2026-11-19T19:26:30.507+05:30  WARN 16728 --- [train-service] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-11-19T19:26:30.543+05:30  INFO 16728 --- [train-service] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoints beneath base path '/actuator'
+2026-11-19T19:26:30.856+05:30  INFO 16728 --- [train-service] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2026-11-19T19:26:30.994+05:30  INFO 16728 --- [train-service] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2026-11-19T19:26:31.029+05:30  INFO 16728 --- [train-service] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T19:26:31.100+05:30  INFO 16728 --- [train-service] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2026-11-19T19:26:31.102+05:30  INFO 16728 --- [train-service] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2026-11-19T19:26:31.103+05:30  INFO 16728 --- [train-service] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2026-11-19T19:26:31.105+05:30  INFO 16728 --- [train-service] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2026-11-19T19:26:31.110+05:30  INFO 16728 --- [train-service] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2026-11-19T19:26:31.112+05:30  INFO 16728 --- [train-service] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2026-11-19T19:26:31.116+05:30  INFO 16728 --- [train-service] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2026-11-19T19:26:32.192+05:30  INFO 16728 --- [train-service] [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2026-11-19T19:26:32.207+05:30  INFO 16728 --- [train-service] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2026-11-19T19:26:32.210+05:30  INFO 16728 --- [train-service] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2026-11-19T19:26:32.221+05:30  INFO 16728 --- [train-service] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1795096592218 with initial instances count: 4
+2026-11-19T19:26:32.236+05:30  INFO 16728 --- [train-service] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application TRAIN-SERVICE with eureka with status UP
+2026-11-19T19:26:32.238+05:30  INFO 16728 --- [train-service] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1795096592238, current=UP, previous=STARTING]
+2026-11-19T19:26:32.241+05:30  INFO 16728 --- [train-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TRAIN-SERVICE/susmithashan:train-service:8083: registering service...
+2026-11-19T19:26:32.327+05:30  INFO 16728 --- [train-service] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8083 (http) with context path '/'
+2026-11-19T19:26:32.329+05:30  INFO 16728 --- [train-service] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8083
+2026-11-19T19:26:32.376+05:30  INFO 16728 --- [train-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TRAIN-SERVICE/susmithashan:train-service:8083 - registration status: 204
+2026-11-19T19:26:32.807+05:30  INFO 16728 --- [train-service] [main] c.r.t.TrainServiceApplication            : Started TrainServiceApplication in 23.609 seconds (process running for 25.202)
+2026-11-19T19:27:28.046+05:30  INFO 16728 --- [train-service] [http-nio-8083-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-19T19:27:28.049+05:30  INFO 16728 --- [train-service] [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-11-19T19:27:28.056+05:30  INFO 16728 --- [train-service] [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2026-11-19T19:31:31.162+05:30  INFO 16728 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T19:36:31.201+05:30  INFO 16728 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T19:41:31.231+05:30  INFO 16728 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T19:46:31.262+05:30  INFO 16728 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T19:51:31.288+05:30  INFO 16728 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T19:56:31.308+05:30  INFO 16728 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T20:01:31.340+05:30  INFO 16728 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T20:06:31.368+05:30  INFO 16728 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T20:11:31.395+05:30  INFO 16728 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T20:16:31.424+05:30  INFO 16728 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T20:21:31.447+05:30  INFO 16728 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T20:26:31.475+05:30  INFO 16728 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T20:31:31.500+05:30  INFO 16728 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T20:36:31.519+05:30  INFO 16728 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T20:41:31.535+05:30  INFO 16728 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T20:46:31.547+05:30  INFO 16728 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T20:51:31.568+05:30  INFO 16728 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T20:56:31.579+05:30  INFO 16728 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T21:01:31.599+05:30  INFO 16728 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T21:06:31.615+05:30  INFO 16728 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T21:11:31.635+05:30  INFO 16728 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T21:16:31.643+05:30  INFO 16728 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T21:21:31.655+05:30  INFO 16728 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T21:26:31.666+05:30  INFO 16728 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T21:31:31.673+05:30  INFO 16728 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T21:36:31.700+05:30  INFO 16728 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T21:41:31.728+05:30  INFO 16728 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T21:46:31.747+05:30  INFO 16728 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T21:51:31.750+05:30  INFO 16728 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T21:56:31.768+05:30  INFO 16728 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T22:01:31.775+05:30  INFO 16728 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T22:06:31.788+05:30  INFO 16728 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T22:11:31.800+05:30  INFO 16728 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T22:16:31.807+05:30  INFO 16728 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T22:20:08.335+05:30  INFO 16728 --- [train-service] [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application TRAIN-SERVICE with eureka with status DOWN
+2026-11-19T22:20:08.351+05:30  INFO 16728 --- [train-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1795107008351, current=DOWN, previous=UP]
+2026-11-19T22:20:08.352+05:30  INFO 16728 --- [train-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TRAIN-SERVICE/susmithashan:train-service:8083: registering service...
+2026-11-19T22:20:08.362+05:30  INFO 16728 --- [train-service] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-19T22:20:08.366+05:30  INFO 16728 --- [train-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TRAIN-SERVICE/susmithashan:train-service:8083 - registration status: 204
+2026-11-19T22:20:08.442+05:30  INFO 16728 --- [train-service] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-19T22:20:08.456+05:30  INFO 16728 --- [train-service] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-11-19T22:20:08.471+05:30  INFO 16728 --- [train-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-11-19T22:20:08.476+05:30  INFO 16728 --- [train-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-11-19T22:20:08.478+05:30  INFO 16728 --- [train-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2026-11-19T22:20:11.491+05:30  INFO 16728 --- [train-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2026-11-19T22:20:11.510+05:30  INFO 16728 --- [train-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TRAIN-SERVICE/susmithashan:train-service:8083 - deregister  status: 200
+2026-11-19T22:20:11.511+05:30  INFO 16728 --- [train-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2026-11-19T22:25:06.167+05:30  INFO 9764 --- [train-service] [main] c.r.t.TrainServiceApplication            : Starting TrainServiceApplication using Java 17.0.12 with PID 9764 (C:\Users\susmi\Documents\RailwayReservationSystem\Backend\train-service\target\classes started by susmi in C:\Users\susmi\Documents\RailwayReservationSystem\Backend\train-service)
+2026-11-19T22:25:06.171+05:30  INFO 9764 --- [train-service] [main] c.r.t.TrainServiceApplication            : No active profile set, falling back to 1 default profile: "default"
+2026-11-19T22:25:07.344+05:30  INFO 9764 --- [train-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-19T22:25:07.549+05:30  INFO 9764 --- [train-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 193 ms. Found 4 JPA repository interfaces.
+2026-11-19T22:25:08.029+05:30  INFO 9764 --- [train-service] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=38fd5a8f-ec68-3af1-82bd-9d4ee273759d
+2026-11-19T22:25:08.788+05:30  INFO 9764 --- [train-service] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8083 (http)
+2026-11-19T22:25:08.816+05:30  INFO 9764 --- [train-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-19T22:25:08.816+05:30  INFO 9764 --- [train-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-11-19T22:25:08.961+05:30  INFO 9764 --- [train-service] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2723 ms
+2026-11-19T22:25:09.388+05:30  INFO 9764 --- [train-service] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-11-19T22:25:09.475+05:30  INFO 9764 --- [train-service] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.13.Final
+2026-11-19T22:25:10.100+05:30  INFO 9764 --- [train-service] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-19T22:25:10.144+05:30  INFO 9764 --- [train-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-11-19T22:25:10.481+05:30  INFO 9764 --- [train-service] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4a36a35d
+2026-11-19T22:25:10.484+05:30  INFO 9764 --- [train-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-11-19T22:25:10.597+05:30  INFO 9764 --- [train-service] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/railway_train_db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.46
+	Default catalog/schema: railway_train_db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-19T22:25:11.845+05:30  INFO 9764 --- [train-service] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-19T22:25:11.962+05:30  INFO 9764 --- [train-service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-19T22:25:12.078+05:30  INFO 9764 --- [train-service] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-11-19T22:25:13.162+05:30  WARN 9764 --- [train-service] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-11-19T22:25:14.479+05:30  INFO 9764 --- [train-service] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestClient.
+2026-11-19T22:25:14.529+05:30  WARN 9764 --- [train-service] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-11-19T22:25:14.529+05:30  INFO 9764 --- [train-service] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoints beneath base path '/actuator'
+2026-11-19T22:25:14.617+05:30  INFO 9764 --- [train-service] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2026-11-19T22:25:14.647+05:30  INFO 9764 --- [train-service] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2026-11-19T22:25:14.655+05:30  INFO 9764 --- [train-service] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T22:25:14.663+05:30  INFO 9764 --- [train-service] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2026-11-19T22:25:14.663+05:30  INFO 9764 --- [train-service] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2026-11-19T22:25:14.663+05:30  INFO 9764 --- [train-service] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2026-11-19T22:25:14.663+05:30  INFO 9764 --- [train-service] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2026-11-19T22:25:14.663+05:30  INFO 9764 --- [train-service] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2026-11-19T22:25:14.663+05:30  INFO 9764 --- [train-service] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2026-11-19T22:25:14.663+05:30  INFO 9764 --- [train-service] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2026-11-19T22:25:15.169+05:30  INFO 9764 --- [train-service] [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2026-11-19T22:25:15.172+05:30  INFO 9764 --- [train-service] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2026-11-19T22:25:15.174+05:30  INFO 9764 --- [train-service] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2026-11-19T22:25:15.178+05:30  INFO 9764 --- [train-service] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1795107315176 with initial instances count: 4
+2026-11-19T22:25:15.184+05:30  INFO 9764 --- [train-service] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application TRAIN-SERVICE with eureka with status UP
+2026-11-19T22:25:15.185+05:30  INFO 9764 --- [train-service] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1795107315185, current=UP, previous=STARTING]
+2026-11-19T22:25:15.188+05:30  INFO 9764 --- [train-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TRAIN-SERVICE/susmithashan:train-service:8083: registering service...
+2026-11-19T22:25:15.222+05:30  INFO 9764 --- [train-service] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8083 (http) with context path '/'
+2026-11-19T22:25:15.223+05:30  INFO 9764 --- [train-service] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8083
+2026-11-19T22:25:15.244+05:30  INFO 9764 --- [train-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TRAIN-SERVICE/susmithashan:train-service:8083 - registration status: 204
+2026-11-19T22:25:15.421+05:30  INFO 9764 --- [train-service] [main] c.r.t.TrainServiceApplication            : Started TrainServiceApplication in 9.984 seconds (process running for 10.76)
+2026-11-19T22:30:14.684+05:30  INFO 9764 --- [train-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-19T22:32:27.825+05:30  INFO 9764 --- [train-service] [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application TRAIN-SERVICE with eureka with status DOWN
+2026-11-19T22:32:27.825+05:30  INFO 9764 --- [train-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1795107747825, current=DOWN, previous=UP]
+2026-11-19T22:32:27.826+05:30  INFO 9764 --- [train-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TRAIN-SERVICE/susmithashan:train-service:8083: registering service...
+2026-11-19T22:32:27.831+05:30  INFO 9764 --- [train-service] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-19T22:32:27.831+05:30  INFO 9764 --- [train-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TRAIN-SERVICE/susmithashan:train-service:8083 - registration status: 204
+2026-11-19T22:32:27.900+05:30  INFO 9764 --- [train-service] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-19T22:32:27.906+05:30  INFO 9764 --- [train-service] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-11-19T22:32:27.910+05:30  INFO 9764 --- [train-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-11-19T22:32:27.917+05:30  INFO 9764 --- [train-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-11-19T22:32:27.918+05:30  INFO 9764 --- [train-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2026-11-19T22:32:30.933+05:30  INFO 9764 --- [train-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2026-11-19T22:32:30.951+05:30  INFO 9764 --- [train-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TRAIN-SERVICE/susmithashan:train-service:8083 - deregister  status: 200
+2026-11-19T22:32:30.953+05:30  INFO 9764 --- [train-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
